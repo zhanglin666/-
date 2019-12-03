@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:layout_marginLeft="20dp"
+              android:layout_marginRight="20dp"
+              android:layout_marginTop="21dp"
+              android:background="@color/white">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="30dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="责任部门"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_num"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="责任班组"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_type"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="责任人"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_time"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="上报人"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_times"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="车次"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="发生时间"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <LinearLayout
+                android:id="@+id/add_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="发生区段"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_word"
+                  android:layout_width="60dp"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="当班列车长"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_ap"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="联责班组长"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="级别"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="添乘类型"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="检查类别"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="检查人"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="检查部门"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="检查起始时间"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_stats"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="检查截止时间"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:textSize="21sp"
+                android:layout_marginRight="35dp"
+                android:textColor="#333333"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="记录编号"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="备注"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:textSize="21sp"
+                android:layout_marginRight="35dp"
+                android:textColor="#333333"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="上报趟"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="上报状态"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:textSize="21sp"
+                android:layout_marginRight="35dp"
+                android:textColor="#333333"
+                android:layout_marginLeft="20dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

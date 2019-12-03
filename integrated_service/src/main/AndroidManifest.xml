@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.kc.integrated_service">
+
+    <application android:theme="@style/AppTheme"
+                 android:usesCleartextTraffic="true"
+                 android:networkSecurityConfig="@xml/network_security_config">
+        <activity android:name="cn.kc.trainman_apply.dispatchingcommand.view.DispatchingCommandActivity"/>
+    </application>
+</manifest>

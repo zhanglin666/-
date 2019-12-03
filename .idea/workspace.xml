@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="pixel" />
+        <device id="Nexus 6" />
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AvailableLibraryUpdateStorage">
+    <library-updates>
+      <library-update>
+        <group-id>io.reactivex.rxjava2</group-id>
+        <name>rxandroid</name>
+        <version>2.1.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test.espresso</group-id>
+        <name>espresso-core</name>
+        <version>3.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.test</group-id>
+        <name>runner</name>
+        <version>1.3.0-alpha02</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.jetbrains.kotlin</group-id>
+        <name>kotlin-stdlib-jdk7</name>
+        <version>1.3.50</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>org.greenrobot</group-id>
+        <name>eventbus</name>
+        <version>3.1.1</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.google.code.gson</group-id>
+        <name>gson</name>
+        <version>2.8.6</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.github.bumptech.glide</group-id>
+        <name>glide</name>
+        <version>4.10.0</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.constraintlayout</group-id>
+        <name>constraintlayout</name>
+        <version>2.0.0-alpha3</version>
+        <repository>Google</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.squareup.retrofit2</group-id>
+        <name>adapter-rxjava2</name>
+        <version>2.6.2</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>com.neovisionaries</group-id>
+        <name>nv-websocket-client</name>
+        <version>2.9</version>
+        <repository>JCenter</repository>
+      </library-update>
+      <library-update>
+        <group-id>junit</group-id>
+        <name>junit</name>
+        <version>4.13-beta-3</version>
+        <repository>Maven Central</repository>
+      </library-update>
+      <library-update>
+        <group-id>androidx.appcompat</group-id>
+        <name>appcompat</name>
+        <version>1.1.0</version>
+        <repository>Google</repository>
+      </library-update>
+    </library-updates>
+    <last-search-timestamp>1571987403165</last-search-timestamp>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="984c7d86-b95d-4c18-977e-3f73687956b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/add_apply/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_apply/src/main/module/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/model/LoginModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/main/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/layout/act_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/androidTest/java/cn/kc/module_dispatching_command/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/androidTest/java/cn/kc/integrated_service/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/CommandApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/CommandApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/CommandResultEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/CommandResultEnum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/adapter/HadDoneAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/adapter/HadDoneAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/adapter/InExecutionAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/adapter/InExecutionAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/adapter/NoReceiveRecycleView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/adapter/NoReceiveRecycleView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/adapter/SpinnerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/adapter/SpinnerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/adapter/TabFragmentPagerAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/adapter/TabFragmentPagerAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/CommandBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/CommandBean.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/CommandClassifyBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/CommandClassifyBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/HadDoneBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/HadDoneBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/InExecutionBeanIng.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/InExecutionBeanIng.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/NoReceiveBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/NoReceiveBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/bean/ReceiveCommandBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/bean/ReceiveCommandBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/contract/CommandContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/contract/CommandContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/HadDoneFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/HadDoneFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/InExecutionFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/InExecutionFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/NoReceiveFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/NoReceiveFragment.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/model/HadDoneModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/model/HadDoneModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/model/InExecutionModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/model/InExecutionModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/model/NoReceiveModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/model/NoReceiveModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/presenter/HadDonePresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/presenter/HadDonePresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/presenter/InExecutionPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/presenter/InExecutionPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/presenter/NoReceivePresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/presenter/NoReceivePresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/view/HadDoneView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/view/HadDoneView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/view/InExecutionIView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/view/InExecutionIView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/fragment/view/NoReceiveIView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/fragment/view/NoReceiveIView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/model/DispatchingCommandModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/model/DispatchingCommandModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/presenter/DispatchingCommandPreserter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/presenter/DispatchingCommandPreserter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/view/DispatchingCommandActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/view/DispatchingCommandActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/java/cn/kc/module_dispatching_command/view/DispatchingCommandIView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/view/DispatchingCommandIView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/module/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/module/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/drawable/edt_cursor_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/drawable/edt_cursor_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/drawable/login_btn_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/drawable/login_btn_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/act_dispatching_command.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/act_dispatching_command.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/fragment_had_done.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/fragment_had_done.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/fragment_in_execution.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/fragment_in_execution.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/fragment_noreceive.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/fragment_noreceive.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/item_noreceive_rcy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/item_noreceive_rcy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/layout/item_spinner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/layout/item_spinner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/mipmap-xhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/mipmap-xhdpi/log.webp" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/log.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/mipmap-xhdpi/sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/sel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_dispatching_command/src/test/java/cn/kc/module_dispatching_command/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/test/java/cn/kc/integrated_service/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/androidTest/java/cn/kc/module_reported_data/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/androidTest/java/cn/kc/add_apply/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ReportedDaraApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ReportedDaraApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/SelectUserReportedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/SelectUserReportedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/CheckPersonAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/CheckPersonAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/CheckTypeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/CheckTypeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/DataRecycleViewAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/DataRecycleViewAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/EmployeeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/EmployeeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/GroupAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/GroupAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/PageInfoCodeAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/PageInfoCodeAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/QueryInfoAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/QueryInfoAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/TimSortAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/TimSortAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/TrainAllAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/TrainAllAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/adapter/TrainBoxNumAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/adapter/TrainBoxNumAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/CheckPersonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/CheckPersonBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/CheckTypeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/CheckTypeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/EmployeeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/EmployeeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/EmployeeByIDBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/EmployeeByIDBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/GroupBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/GroupBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/PageInfoCodeBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/PageInfoCodeBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/ResponsibleDepartmentBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/ResponsibleDepartmentBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/TimSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/TimSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/TrainAddressBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/TrainAddressBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/bean/TrainAllBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/bean/TrainAllBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/CheckPersonModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/CheckPersonModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/CheckTypeModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/CheckTypeModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/EmployeeModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/EmployeeModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/InFoReportedModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/InFoReportedModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/PageInfoCodeModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/PageInfoCodeModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/ResponsibleDepartmentModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/ResponsibleDepartmentModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/ResponsibleGroupModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/ResponsibleGroupModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/TimSortModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/TimSortModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/model/TrainAllModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/model/TrainAllModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/preserter/InfoReportedPreserter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/preserter/InfoReportedPreserter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/select/ConductorInfoReportedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/ConductorInfoReportedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/select/GroundServiceInfoReportedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/GroundServiceInfoReportedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/select/MotorcadeInfoReportedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/MotorcadeInfoReportedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/select/OfficeInfoReportedActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/OfficeInfoReportedActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/select/QueryInfoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/QueryInfoActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/CheckPersonActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/CheckPersonActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/CheckTypeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/CheckTypeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/EmployeeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/EmployeeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/PageInfoCodeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/PageInfoCodeActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/ResponsibleDepartmentActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/ResponsibleDepartmentActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/ResponsibleGroupActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/ResponsibleGroupActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/TimSortActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/TimSortActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/TrainAllActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/TrainAllActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/ui/TrainBoxNumActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ui/TrainBoxNumActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/utils/ChooseAddressUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/utils/ChooseAddressUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/utils/ChooseDateUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/utils/ChooseDateUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/utils/ChooseTimeSortUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/utils/ChooseTimeSortUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/utils/ChooseXiaoHaoUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/utils/ChooseXiaoHaoUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/view/InfoReportedView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/view/InfoReportedView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/java/cn/kc/module_reported_data/view/ItemClickListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/view/ItemClickListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/module/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/drawable/item_reported_info_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/drawable/item_reported_info_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/drawable/login_card_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/drawable/login_card_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/act_check_person.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/act_check_person.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/act_employee.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/act_employee.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/act_page_info_code.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/act_page_info_code.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/act_responsibledepartment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/act_responsibledepartment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/act_selectuser_reported.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/act_selectuser_reported.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/activity_info_reported.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/activity_info_reported.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/activity_query_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/activity_query_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/item_check_oerson.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/item_check_oerson.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/item_data_rd.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/item_data_rd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/item_page_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/item_page_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/layout/item_query_info_rcy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/layout/item_query_info_rcy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/mipmap-xhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/ic_save.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/ic_save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/log.webp" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/mipmap-xhdpi/log.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/mipmap-xhdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/mipmap-xhdpi/sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/mipmap-xhdpi/sel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/integrated_service/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/module_reported_data/src/test/java/cn/kc/module_reported_data/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/add_apply/src/test/java/cn/kc/add_apply/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/androidTest/java/cn/kc/moduleaddresslist/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/androidTest/java/cn/kc/mine_apply/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/AddressApi.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/AddressApi.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/adapter/CustomExpandableListView.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/adapter/CustomExpandableListView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/adapter/ExpandListViewAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/adapter/ExpandListViewAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/bean/AddressListBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/bean/AddressListBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/bean/AddressListSearchBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/bean/AddressListSearchBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/bean/FirstBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/bean/FirstBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/bean/SecondBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/bean/SecondBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/bean/ThirdBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/bean/ThirdBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/contract/AddressListContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/contract/AddressListContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/model/AddressListModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/model/AddressListModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/presenter/AddressListPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/presenter/AddressListPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/cn/kc/moduleaddresslist/view/AddressListActiivty.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/view/AddressListActiivty.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/java/debug/AddressListApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/java/debug/AddressListApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/module/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/module/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/drawable/search_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/drawable/search_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/layout/act_address_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/layout/act_address_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/layout/item_expand_lv_first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/layout/item_expand_lv_first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/layout/item_expand_lv_second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/layout/item_expand_lv_second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/layout/item_expand_lv_third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/layout/item_expand_lv_third.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/dianhua.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/dianhua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/duanxian.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/duanxian.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/ic_save.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/ic_save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/log.webp" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/log.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/mipmap-xhdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/mipmap-xhdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleaddresslist/src/test/java/cn/kc/moduleaddresslist/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mine_apply/src/test/java/cn/kc/mine_apply/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/androidTest/java/cn/kc/modulemain/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/androidTest/java/cn/kc/trainman_apply/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/Api.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/Api.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/NoReceiveBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/NoReceiveBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/ResultEnum.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/ResultEnum.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/UserBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/UserBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/model/LoginModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/presenter/Presenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/presenter/Presenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/view/LoginActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/view/LoginActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/view/LoginIView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/view/LoginIView.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/main/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/main/MainPresenter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/main/MainPresenter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/server/MySocketService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/server/MySocketService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/server/WsListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/server/WsListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/utils/FoldTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/utils/FoldTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/utils/MyLinkMovementMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/utils/MyLinkMovementMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/utils/SpannableFoldTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/utils/SpannableFoldTextView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/debug/FragmentDialog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/debug/FragmentDialog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/java/debug/PermissionActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/java/debug/PermissionActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/module/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/module/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/anim/slide_in_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/anim/slide_in_bottom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/anim/slide_out_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/anim/slide_out_bottom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/drawable/edt_cursor_color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/drawable/edt_cursor_color.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/drawable/login_btn_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/drawable/login_btn_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/drawable/login_card_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/drawable/login_card_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/drawable/search_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/drawable/search_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/drawable/select_item_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/drawable/select_item_bg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/layout/act_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/layout/act_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/layout/act_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/layout/activity_tipsprice_spinner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/layout/activity_tipsprice_spinner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/layout/dialog_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/layout/dialog_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/layout/item_time_pickerview.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/layout/item_time_pickerview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-hdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-hdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-hdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-hdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/ic_save.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/ic_save.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/log.webp" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/log.webp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/mark.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/mark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/mm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/mm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/name.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/name.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/nav1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/nav1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/nav2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/nav2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/right.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/sel.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/sel.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xhdpi/topbj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xhdpi/topbj.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxhdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxhdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxxhdpi/fanhui.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxxhdpi/fanhui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/mipmap-xxxhdpi/search.png" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/mipmap-xxxhdpi/search.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/raw/msg.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/raw/msg.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/values/attrs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/main/res/xml/network_security_config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modulemain/src/test/java/cn/kc/modulemain/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/trainman_apply/src/test/java/cn/kc/trainman_apply/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moduleutils/src/main/java/cn/kc/moduleutils/base/BaseApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/moduleutils/src/main/java/cn/kc/moduleutils/base/BaseApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="V8KGEANE47" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="YC_PassengerTrafficSection" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/view/LoginActivity.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/presenter/Presenter.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/model/LoginModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>resolvE</find>
+      <find>BRAN</find>
+      <find>CONTENT</find>
+      <find>COMMADN_CONTENT</find>
+      <find>RESOLVE_CONTENT</find>
+      <find>RxJava2CallAdapterFactory</find>
+      <find>network_se</find>
+      <find>spinner_code</find>
+      <find>network_</find>
+      <find>company_pickerview_custom_time</find>
+      <find>EventBus</find>
+      <find>GetEmployee</find>
+      <find>GetTeamByDepID</find>
+      <find>GetStation</find>
+      <find>cb_address</find>
+      <find>CommandClassifyBean</find>
+      <find>lt_expandablelistviewselector</find>
+      <find>select</find>
+      <find>lt_ex</find>
+      <find>item_expand_lv</find>
+      <find>command_word</find>
+      <find>item_reported_info_bg</find>
+      <find>act_check_person</find>
+      <find>company_to</find>
+      <find>mm</find>
+      <find>act_responsibledepartment</find>
+      <find>oncreate</find>
+      <find>getLayout</find>
+      <find>refreshLayout_address</find>
+      <find>lifecycle</find>
+    </findStrings>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="E:\YC_PassengerTrafficSection\app\key.jks" />
+    <option name="KEY_ALIAS" value="xiankecheng" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/layout/fragment_adda_apply.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/login/view/LoginActivity.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/layout/fragment_integratedservice_apply.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/layout/fragment_mine_apply.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/layout/act_main.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/fragment/FlightAttendantApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/fragment/AddAApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/fragment/IntegratedServiceApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/fragment/MineApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/main/MainPresenter.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/main/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/main/MainAdapter.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/res/layout/fragment_flightattendant_apply.xml" />
+        <option value="$PROJECT_DIR$/moduleutils/src/main/java/cn/kc/moduleutils/base/BaseApplication.kt" />
+        <option value="$PROJECT_DIR$/modulemain/src/main/java/cn/kc/modulemain/server/SocketServerText.java" />
+        <option value="$PROJECT_DIR$/trainmanapply/src/main/module/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/trainmanapply/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/integrated_service/src/main/res/layout/fragment_integratedservice_apply.xml" />
+        <option value="$PROJECT_DIR$/integrated_service/src/main/java/cn/kc/integrated_service/IntegratedServiceApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/add_apply/src/main/res/layout/fragment_adda_apply.xml" />
+        <option value="$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/AddAApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/main/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/trainman_apply/src/main/res/layout/act_main.xml" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/android/Intents.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/zxing/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/android/BeepManager.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/android/CaptureActivity.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/android/CaptureActivityHandler.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeThread.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeHandler.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/camera/CameraManager.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/view/ViewfinderView.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/bean/ZxingConfig.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeFormatManager.java" />
+        <option value="$PROJECT_DIR$/zxing/src/main/res/layout/activity_capture.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/res/layout/fragment_mine_apply.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/MainActivity.java" />
+        <option value="$PROJECT_DIR$/mine_apply/build.gradle" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/ScanFragment.java" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/res/layout/fragment_scan.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/res/layout/activity_fragment.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/MineApplyFragment.kt" />
+        <option value="$PROJECT_DIR$/zxing/build.gradle" />
+        <option value="$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/FragmentActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="YC_PassengerTrafficSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YC_PassengerTrafficSection" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="YC_PassengerTrafficSection" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YC_PassengerTrafficSection" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="motorola-aosp_on_shama-127.0.0.1:62001" />
+    <property name="DEBUGGABLE_PROCESS" value="cn.kc.module_reported_data" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="E:\YC_PassengerTrafficSection\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="device.picker.selection" value="AKC7N18613001982" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/ticket/keyBoarddemo/android-demo" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.2.0" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="BUILD_VARIANTS_TAB" value="Build Types" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="release" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="cn.kc.module_reported_data.select" />
+      <recent name="cn.kc.modulemain.reported_data.ui" />
+      <recent name="cn.kc.modulemain.reported_data.select" />
+      <recent name="cn.kc.modulemain" />
+      <recent name="cn.kc.modulemain.main" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="cn.kc.mine_apply" />
+      <recent name="cn.kc.module_dispatching_command" />
+      <recent name="cn.kc.moduleaddresslist" />
+      <recent name="cn.kc.moduleutils.http" />
+      <recent name="cn.kc.yc_passengertrafficsection" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cn.kc.modulemain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\YC_PassengerTrafficSection\mine_apply\src\main\res\layout" />
+      <recent name="E:\YC_PassengerTrafficSection\mine_apply\src\main\java\cn\kc\mine_apply\text" />
+      <recent name="E:\YC_PassengerTrafficSection\zxing\libs" />
+      <recent name="E:\YC_PassengerTrafficSection\zxing\src\main\res\values" />
+      <recent name="E:\YC_PassengerTrafficSection\zxing\src\main\res" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.kc.moduleaddresslist.adapter" />
+      <recent name="cn.kc.modulemain" />
+      <recent name="cn.kc.moduleutils.bean" />
+      <recent name="cn.kc.modulemain.server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\YC_PassengerTrafficSection\modulemain\src\main\res\mipmap-xhdpi" />
+      <recent name="E:\YC_PassengerTrafficSection\moduleutils\src\main\res\drawable-640dpi" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module_dispatching_command" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="integrated_service" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module_reported_data" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="add_apply" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="module_text" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="module_text" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moduleaddresslist" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="mine_apply" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="modulemain" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="trainman_apply" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="984c7d86-b95d-4c18-977e-3f73687956b2" name="Default Changelist" comment="" />
+      <created>1564379326996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564379326996</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.21709532" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.68313456" />
+      <window_info anchor="bottom" id="Run" order="1" />
+      <window_info anchor="bottom" id="Logcat" order="2" weight="0.66211605" />
+      <window_info anchor="bottom" id="TODO" order="3" weight="0.32935154" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" weight="0.7201365" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32764506" />
+      <window_info anchor="bottom" id="Terminal" order="6" weight="0.57508534" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.44709897" />
+      <window_info anchor="bottom" id="Flutter Performance" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32935154" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32879046" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Flutter Inspector" order="2" />
+      <window_info anchor="right" id="Flutter Outline" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="4" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Preview" order="6" weight="0.29727685" />
+      <window_info anchor="right" id="Device File Explorer" order="7" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Kotlin Bytecode" order="8" weight="0.3857791" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/common/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/BitmapLuminanceSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="25" selection-end-line="38" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeImgCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeImgThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/ImageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/decode/DecodeFormatManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/encode/CodeCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/view/ViewfinderResultPointCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/view/ViewfinderView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/widget/RelativeLayout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/res/drawable/ic_close.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/res/layout/activity_capture.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="87" column="46" lean-forward="true" selection-start-line="87" selection-start-column="46" selection-end-line="87" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/fragment/FlightAttendantApplyFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/res/layout/fragment_flightattendant_apply.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-300" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/res/layout/fragment_mine_apply.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/res/layout/mine_activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/res/layout/fragment_scan.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/src/main/java/cn/kc/zxing/android/CaptureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/preserter/InfoReportedPreserter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/select/QueryInfoActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moduleutils/src/main/java/cn/kc/moduleutils/base/BaseActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moduleutils/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zxing/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="68" column="3" selection-start-line="68" selection-start-column="3" selection-end-line="68" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/ScanFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="56" column="54" selection-start-line="56" selection-start-column="54" selection-end-line="56" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/res/layout/activity_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="43" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/debug/PermissionActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="197" column="5" selection-start-line="166" selection-start-column="3" selection-end-line="197" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/MineApplyFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/text/FragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moduleutils/src/main/java/cn/kc/moduleutils/http/Constant.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="67" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/res/layout/act_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/UserBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/Api.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/AddAApplyFragment.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_apply/src/main/java/cn/kc/add_apply/ReportedDaraApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/adapter/ExpandListViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/AddressApi.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="24" column="85" lean-forward="true" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/contract/AddressListContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/view/LoginActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="85" column="20" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/presenter/Presenter.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mine_apply/src/main/java/cn/kc/mine_apply/view/AddressListActiivty.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="65" column="41" lean-forward="true" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trainman_apply/src/main/java/cn/kc/trainman_apply/login/model/LoginModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

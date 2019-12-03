@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">modulemain</string>
+    <string name="logins_title">银川客运段移动办公平台</string>
+    <string name="server_address">请输入端口号</string>
+    <string name="loging">登录中...</string>
+    <string name="server_failed">连接服务器失败</string>
+    <string name="edit_user">请输入用户名</string>
+    <string name="edit_password">请输入密码</string>
+</resources>

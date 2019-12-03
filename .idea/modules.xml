@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/YC_PassengerTrafficSection.iml" filepath="$PROJECT_DIR$/YC_PassengerTrafficSection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/add_apply/add_apply.iml" filepath="$PROJECT_DIR$/add_apply/add_apply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/integrated_service/integrated_service.iml" filepath="$PROJECT_DIR$/integrated_service/integrated_service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mine_apply/mine_apply.iml" filepath="$PROJECT_DIR$/mine_apply/mine_apply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/moduleutils/moduleutils.iml" filepath="$PROJECT_DIR$/moduleutils/moduleutils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trainman_apply/trainman_apply.iml" filepath="$PROJECT_DIR$/trainman_apply/trainman_apply.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zxing/zxing.iml" filepath="$PROJECT_DIR$/zxing/zxing.iml" />
+    </modules>
+  </component>
+</project>

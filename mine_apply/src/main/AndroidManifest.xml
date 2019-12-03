@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cn.kc.mine_apply">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application android:theme="@style/AppTheme"
+                 android:usesCleartextTraffic="true"
+                 android:networkSecurityConfig="@xml/network_security_config">
+        <activity android:name="cn.kc.trainman_apply.addresslist.view.AddressListActiivty"
+                  android:windowSoftInputMode="stateAlwaysHidden | adjustPan"/>
+        <activity android:name=".text.FragmentActivity"/>
+    </application>
+</manifest>

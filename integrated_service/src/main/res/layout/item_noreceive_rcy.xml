@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="21dp"
+        android:background="@color/white">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="30dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令编号"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_num"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令分类"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_type"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="下发时间"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_time"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="有效时间"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_times"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令内容"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_content"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令图片"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <LinearLayout
+                android:id="@+id/add_img"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令附件"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+
+        <TextView android:id="@+id/command_word"
+                  android:layout_width="60dp"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令安排"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_ap"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="21dp"
+                  android:orientation="horizontal">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="命令状态"
+                  android:textSize="21sp"
+                  android:textColor="#808080"
+                  android:layout_marginLeft="28dp"/>
+        <TextView android:id="@+id/command_stats"
+                  android:layout_width="wrap_content"
+                  android:textSize="21sp"
+                  android:layout_marginRight="35dp"
+                  android:textColor="#333333"
+                  android:layout_marginLeft="20dp"
+                  android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <Button android:id="@+id/btn_command"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/login_btn_bg"
+            android:text="接令"
+            android:textColor="@color/white"
+            style="?android:attr/borderlessButtonStyle"
+            android:textSize="21sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="24dp"/>
+</LinearLayout>

@@ -1,0 +1,44 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "cn.kc.yc_passengertrafficsection"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    buildscript {
+        repositories {
+            jcenter()
+        }
+    }
+    allprojects {
+        repositories {
+            jcenter()
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':moduleutils')
+    if (!isModule.toBoolean()) {
+        implementation project(':trainman_apply')
+        implementation project(':mine_apply')
+        implementation project(':add_apply')
+        implementation project(':integrated_service')
+    }
+}
