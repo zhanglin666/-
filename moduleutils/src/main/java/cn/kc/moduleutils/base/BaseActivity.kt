@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import cn.kc.moduleutils.R
+import cn.kc.moduleutils.util.AppManager
 import com.jaeger.library.StatusBarUtil
 
 /**
@@ -16,6 +17,7 @@ import com.jaeger.library.StatusBarUtil
 abstract class BaseActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        AppManager.getAppManager().addActivity(this)
         StatusBarUtil.setColor(this, resources.getColor(R.color.color_app))
         init(savedInstanceState)
     }

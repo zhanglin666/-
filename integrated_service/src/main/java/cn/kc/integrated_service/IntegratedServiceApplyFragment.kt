@@ -1,5 +1,6 @@
 package cn.kc.integrated_service
 
+import android.view.View
 import cn.kc.moduleutils.base.BaseFragment
 import cn.kc.moduleutils.util.Logs
 import com.alibaba.android.arouter.facade.annotation.Route
@@ -16,5 +17,4 @@ class IntegratedServiceApplyFragment : BaseFragment() {
     override fun initData() {
         Logs.e("测试综合业务应用")
     }
-
 }

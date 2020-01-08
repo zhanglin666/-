@@ -1,0 +1,906 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <TextView
+                android:id="@+id/top_flightattendant_apply"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/blue_def"
+                android:gravity="center"
+                android:text="银客"
+                android:textColor="@color/white"
+                android:textSize="38sp"
+                tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+                android:id="@+id/ll_chengwu_yewu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="26dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:text="乘务业务"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw1" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="调令处理"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw2" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="调令查询"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="49dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw3" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车次查询"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw4" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="列车时刻"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw5" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="交路查询"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_cwyw6" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="列车对接"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_ywtc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="26dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:text="业务添乘"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj1" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="干部添乘"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="46dp"
+                            android:layout_height="55dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj2" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车长上报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj3" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车队上报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj4" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="机关上报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj5" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="地勤上报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="56dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj6" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="添乘对接"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj7" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="接送车"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj8" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="信息确认"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_ywtj9" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="添乘查询"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:id="@+id/ll_yjcz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="26dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:text="应急处置"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz1" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="列车晚点"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="46dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz2" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车门故障"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz3" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="冲撞异物"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz4" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车辆异常"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="46dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz5" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="紧急停车"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="44dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz6" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="重大疫情"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz7" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="铁路中断"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="42dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_yjcz8" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="恶劣天气"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="26dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:text="综合应用"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="48dp"
+                            android:layout_height="52dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_zhyy1" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="遗失物品"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="57dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_zhyy2" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车长速报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_zhyy3" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="车补信息"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:layout_width="52dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_zhyy4" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="乘务速报"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="54dp"
+                            android:layout_height="54dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_zhyy5" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="投诉意见"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="26dp"
+                android:layout_marginBottom="40dp"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="30dp"
+                    android:text="其他"
+                    android:textColor="@color/black"
+                    android:textSize="32sp" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="44dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_qt1" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="通讯录"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <ImageView
+                            android:layout_width="43dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/home_qt2" />
+
+                    <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="19dp"
+                            android:text="账号管理"
+                            android:textColor="@color/black"
+                            android:textSize="24sp" />
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+                <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

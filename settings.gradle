@@ -1,1 +1,1 @@
-include ':app', ':moduleutils', ':trainman_apply', ':mine_apply', ':add_apply', ':integrated_service', ':zxing'
+include ':app', ':moduleutils', ':modulemain', ':moduleaddress', ':add_apply', ':integrated_service', ':zxing'

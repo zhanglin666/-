@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5F5">
+
+    <TextView
+            android:id="@+id/address_title"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#4F9BFB"
+            android:gravity="center"
+            android:text="通讯录"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+            android:id="@+id/search_person"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="#4F9BFB"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/address_title">
+
+        <EditText
+                android:id="@+id/address_list_search"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="29dp"
+                android:layout_weight="1"
+                android:background="@drawable/search_bg"
+                android:drawableLeft="@mipmap/search"
+                android:drawablePadding="8dp"
+                android:hint="姓名、部门、班组搜索"
+                android:paddingLeft="24dp"
+                android:textColor="@color/black"
+                android:textColorHint="#999999"
+                android:textSize="18sp" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="搜索"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="30dp"
+                android:textColor="@color/white"
+                android:textSize="28sp" />
+
+    </LinearLayout>
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/refreshLayout_address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="1dp"
+            android:background="#EDEDED"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/search_person"
+            app:srlEnableLoadMore="true"
+            app:srlEnablePreviewInEditMode="true">
+
+        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.scwang.smartrefresh.layout.header.ClassicsHeader>
+
+        <ExpandableListView
+                android:id="@+id/address_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/address_list_search"
+                tools:ignore="MissingConstraints" />
+
+        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></com.scwang.smartrefresh.layout.footer.ClassicsFooter>
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

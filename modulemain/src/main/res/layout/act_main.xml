@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F1F1F1">
+
+    <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scrollbars="none"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/ll_main_diaoling" />
+
+    <LinearLayout
+            android:id="@+id/ll_main_diaoling"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/ll_main_jiaolu"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:id="@+id/img_diaoling"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/icon_ml2" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="调令"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+            android:id="@+id/ll_main_jiaolu"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/ll_main_diaoling"
+            app:layout_constraintRight_toLeftOf="@+id/ll_main_menu"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:id="@+id/img_jiaolu"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/icon_jl2" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="交路"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_main_menu"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/ll_main_jiaolu"
+            app:layout_constraintRight_toLeftOf="@+id/ll_main_address"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:id="@+id/img_menu"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/icon_zy1" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="主页"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+            android:id="@+id/ll_main_address"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/ll_main_menu"
+            app:layout_constraintRight_toLeftOf="@+id/ll_main_mine"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:id="@+id/img_address"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/icon_txl2" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="通讯录"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+            android:id="@+id/ll_main_mine"
+            android:layout_width="0dp"
+            android:layout_height="94dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@id/ll_main_address"
+            app:layout_constraintRight_toRightOf="parent"
+            tools:ignore="MissingConstraints">
+
+        <ImageView
+                android:id="@+id/img_mine"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@mipmap/js" />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

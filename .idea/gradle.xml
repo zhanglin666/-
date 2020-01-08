@@ -11,13 +11,14 @@
             <option value="$PROJECT_DIR$/add_apply" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/integrated_service" />
-            <option value="$PROJECT_DIR$/mine_apply" />
+            <option value="$PROJECT_DIR$/moduleaddress" />
+            <option value="$PROJECT_DIR$/modulemain" />
             <option value="$PROJECT_DIR$/moduleutils" />
-            <option value="$PROJECT_DIR$/trainman_apply" />
             <option value="$PROJECT_DIR$/zxing" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>

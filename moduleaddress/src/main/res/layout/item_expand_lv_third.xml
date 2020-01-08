@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_third"
+                android:layout_width="match_parent"
+                android:layout_height="64dp">
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="#666666"
+            android:textSize="21sp"
+            android:layout_marginLeft="113dp"
+            android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/job_title"
+              android:layout_width="wrap_content"
+              android:layout_centerVertical="true"
+              android:textColor="#666666"
+              android:textSize="21sp"
+              android:layout_marginLeft="216dp"
+              android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/phone_num"
+              android:layout_width="wrap_content"
+              android:layout_centerVertical="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginRight="63dp"
+              android:textColor="#666666"
+              android:textSize="21sp"
+              android:layout_height="wrap_content"/>
+
+    <View android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:layout_marginLeft="21dp"
+          android:layout_marginRight="21dp"
+          android:layout_alignParentBottom="true"
+          android:background="@color/gry"/>
+
+    <CheckBox android:id="@+id/cb"
+              android:button="@null"
+              android:layout_marginLeft="40dp"
+              android:layout_width="30dp"
+              android:layout_centerVertical="true"
+              android:layout_height="30dp"/>
+
+</RelativeLayout>

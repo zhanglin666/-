@@ -15,7 +15,7 @@ open class MyAppilcation : BaseApplication() {
     override fun onCreate() {
         super.onCreate()
         ScreenAdapter.setup(this)
-        ScreenAdapter.register(this,540f,
+        ScreenAdapter.register(this,360f,
             ScreenAdapter.MATCH_BASE_WIDTH,ScreenAdapter.MATCH_UNIT_DP)
     }
 
